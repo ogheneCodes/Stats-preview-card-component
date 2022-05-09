@@ -1,0 +1,103 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+main{
+    background-color: hsl(244, 38%, 16%);
+    margin: 5%;
+    margin-top: 10%;
+    border-radius: 2% 2%;
+}
+img{
+    width: 100%;
+    /* margin-top: 20%; */
+    /* filter: grayscale(0.43) url('#blackCurrant-and-mint'); */
+    opacity: 0.5;
+    filter: sepia(100%);
+    border-radius: 5% 5% 0px 0px;
+}
+.header-text{
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size:x-large;
+}
+.header-text > p > span{
+    color:blueviolet;
+}
+.paragraph{
+    color:white;
+    text-align:center;
+}
+.numbers{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20%;
+    padding-bottom: 20%;
+}
+
+@media(min-width:1024px){
+    body{
+        background-color: hsl(233, 47%, 7%);
+      }
+      main{
+          width:70%;
+          display: flex;
+          flex-direction:row-reverse;
+          background-color: hsl(244, 38%, 16%);
+          margin: 35px auto;
+          /* margin-top: 2%; */
+          border-radius: 2% 2%;
+          height: 70vh;
+      }
+      img{
+          width: 50%;
+          /* height: 100vh; */
+          /* width: 100%; */
+          opacity: 0.5;
+          filter: sepia(100%);
+          border-radius: 0% 2% 0px 2px;
+      }
+      .text-div{
+          width: 50%;
+      }
+      .header-text{
+        width: 100%;
+          /* text-align: center;
+          color: white;
+          font-weight:bold;
+          font-size:x-large; */
+      }
+      .header-text > p {
+          display: block;
+      }
+      .header-text > p > span{
+          /* color:blueviolet; */
+      }
+      .paragraph{
+          /* color:white;
+          text-align:center; */
+      }
+      .numbers{
+          text-align: center;
+          color: white;
+          /* padding: 2%; */
+          /* padding-top: 5%; */
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-bottom: 20%;
+          padding-bottom: 20%;
+          display: flex;
+          /* letter-spacing: 5px; */
+          /* padding-left: 20%; */
+          justify-content:center;
+      }
+      #companies{
+          padding-right: 5%;
+      }
+      #templates{
+        padding-right: 5%;
+    }
+}
