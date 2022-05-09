@@ -47,7 +47,7 @@ img{
           display: flex;
           flex-direction:row-reverse;
           background-color: hsl(244, 38%, 16%);
-          margin: 35px auto;
+          margin: 5% auto;
           /* margin-top: 2%; */
           border-radius: 2% 2%;
           height: 70vh;
@@ -72,13 +72,6 @@ img{
       }
       .header-text > p {
           display: block;
-      }
-      .header-text > p > span{
-          /* color:blueviolet; */
-      }
-      .paragraph{
-          /* color:white;
-          text-align:center; */
       }
       .numbers{
           text-align: center;
